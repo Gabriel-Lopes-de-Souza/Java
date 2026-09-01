@@ -1,0 +1,236 @@
+// public class Main {
+  //  public static void main(String[] args){
+    //   byte valor = 127;
+    //   int numero = 12;
+  //     double numeroComVirgula = 12.2;
+       //String palavras = "Olá mundo!";
+      // boolean checagem = true;
+       //true -> sim; false -> não
+
+        //System.out.println(numeroC);
+
+      //  int numeroA = 10;
+    //    int numeroB = 20;
+  //      int numeroC = numeroA + numeroB;
+//        int numeroD = numeroB - numeroA;
+
+        //int multiplicado = numeroA * numeroB / 10;
+        //double dividido = (double) 10 / 3;
+          //               // "(double)"faz o java retornar em número decimal
+        //double dividido1 = 10.0 / 3.0;
+
+        //String nomeDoUsuario = " João!";
+      //  String boasvindas = "Olá" + nomeDoUsuario;
+
+    //    System.out.println(15 % 2);
+
+  //  }
+//}
+
+//class Aluno { 
+    //String nome;
+    //int idade;
+
+    //void apresentar(){
+
+    //    System.out.println("Olá eu sou " + nome + " e tenho " + idade + " anos " );
+  //  }
+//}
+
+//class codigo{ 
+//    String nome;
+//    String nivel;
+//    String criacao;
+//    String estilo;
+//    String tempo;
+//    String criador;
+//    void primeirop(){
+
+//        System.out.println("A linguagem escolhida foi: " + nome + "\nNível de dificuldade: " + nivel + "\nA linguagem foi lançada em: " + criacao);
+//        System.out.println( nome + " é " + estilo + " por ser " + nivel + "\n vai demorar " + tempo + "\n A criação foi em: " + criacao + " por " + criador);
+//    }
+//}
+//------------------------------------------------------------------
+//public class main { 
+//    public static void main(String[] args) {
+//        codigo lingua1 = new codigo();
+//        lingua1.nome = "Java";
+//        lingua1.nivel = "Difícil";
+//        lingua1.criacao = "23/05/1995";
+//        lingua1.estilo = "Verbosa";
+//        lingua1.tempo = "2 anos para aprender";
+//        lingua1.criador = "James Gosling";
+//        lingua1.primeirop();
+//    }
+//}
+//------------------------------------------------------------------
+//public class Main { 
+//    public static void main(String[] args) {
+//        Aluno aluno1 = new Aluno();
+//        aluno1.nome = "Daniel";
+//        aluno1.idade = 22;
+//        
+//------------------------------------------------------------------
+// public class Main {
+      
+//       public static void main(String[]args) { 
+//       boolean logincorreto = true;
+//       boolean senhacorreta = true;
+//       boolean acesso = logincorreto && senhacorreta;
+//       System.out.println("Login: " + logincorreto);
+//       System.out.println("Senha: "  + senhacorreta);
+//       System.out.println("O acesso é " + acesso);
+//   }
+// }
+
+//------------------------------------------------------------------
+//   public class Main {
+      
+//       public static void main(String[]args) { 
+//       int idade = 20; 
+//       String situacao = idade >= 18 ? "Maior de idade" : "Menor de idade";
+//       System.out.println(situacao);
+//   }
+// }
+//------------------------------------------------------------------  
+//   public class Main { 
+//       public static void main(String[]args) {
+//          int idade = 23;
+//          if (idade >= 18) {
+//              System.out.println("Maior de idade");
+//          }
+//              else {
+//                 System.out.println("Menor de idade");
+         
+//                 }
+//              }
+          
+//       }
+//------------------------------------------------------------------
+// public class Main {
+  
+//       public static void main(String[]args) { 
+//       int dia = 7;
+//       switch (dia) {
+//           case 1:
+//             System.out.println("Segunda-feira");
+//             break;
+//          case 2:
+//             System.out.println("Terça-feira");
+//             break;
+//          case 3:
+//             System.out.println("Quarta-feira");
+//             break;
+//         case 4:
+//             System.out.println("Quinta-feira");
+//             break;
+//         case 5:
+//             System.out.println("Sexta-feira");
+//             break;
+//         case 6:
+//             System.out.println("Sábado");
+//             break;
+//       case 7:
+//             System.out.println("Domingo");
+//             break;
+//       default:
+//             System.out.println("Dia não cadastrado");
+//     }
+//   }
+// }
+//------------------------------------------------------------------
+public class Main {
+  
+//       public static void main(String[]args) { 
+//       double media = 80;
+//       String graduacao;
+      
+//       if (media >= 70){
+//           graduacao = "A";
+//       } else if (media < 70 && media >= 50) {
+//           graduacao = "B";
+//       } else {
+//           graduacao = "C";
+//       }  
+      
+//       System.out.println("Média: " + media);
+      
+//       switch (graduacao) {
+//         case "A":
+//             System.out.println("Aprovado");
+//             break;
+//         case "B":
+//             System.out.println("Recuperação");
+//             break;
+//         case "C":
+//             System.out.println("Reprvoado");
+//             break;
+//         default:
+//             System.out.println("Erro!!");
+            
+//       }
+//      }
+//   }
+  
+//        aluno1.apresentar();
+  //  }
+//}
+//------------------------------------------------------------------
+//  public class Main
+// {
+// 	public static void main(String[] args) {
+// 	    String linguagem = "JAVA";
+// 	    String linguagemMinuscula = linguagem.toLowerCase();
+// 	    String nome = "Daniel";
+// 	    String nomeMaisculo = nome.toUpperCase();
+// 	    System.out.println(nomeMaisculo);
+// 		System.out.println(linguagemMinuscula);
+// 	}
+// }
+// 
+//------------------------------------------------------------------
+// public class Main{
+//     public static void main(String[]args){
+//     String email = "usuario@dominio.com";
+//     int indiceArroba = email.indexOf("@");
+//     System.out.println(indiceArroba);
+//     }
+// }
+//------------------------------------------------------------------
+// import java.time.LocalDate;
+// public class Main{
+//     public static void main(String[]args){
+//      LocalDate dataAtual = LocalDate.now();
+        
+//     System.out.println("Data atual:"+ dataAtual);
+//     }
+// }
+// import java.time.LocalDate;
+//------------------------------------------------------------------
+// public class Main{
+//     public static void main(String[]args){
+//         LocalDate dataNascimento = LocalDate.of(1987, 9, 3);
+//     System.out.println("Data de Nascimento:" + dataNascimento);
+        
+//     }
+// }
+//------------------------------------------------------------------
+// import java.time.LocalDate;
+// import java.time.DayOfWeek;
+
+// public class Main{
+//     public static void main(String[]args){
+//         LocalDate dataAtual = LocalDate.now();
+//     System.out.println("Data Atual:" + dataAtual);
+//         int dia = dataAtual.getDayOfMonth();
+//     System.out.println("Dia do mês:"+ dia);
+    
+//         int mes = dataAtual.getMonthValue();
+//     System.out.println("Mês(numérico);"+mes);    
+//         int ano = dataAtual.getYear();
+//     System.out.println("Ano:"+ano);
+    
+//     DayOfWeek diaDaSemana = dataAtual.getDayOfWeek();
+//     System.out.println("Dia da semana:" + diaDaSemana);
+//  }
+// }
