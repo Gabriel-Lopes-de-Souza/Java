@@ -1,1 +1,1 @@
-# Manipulacao-de-Strings-datas-e-lacos-de-repeticao-for-em-Java
+# Códigos acadêmicos em Java
